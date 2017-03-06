@@ -24,6 +24,7 @@ SET ( CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake" )
 
 # include libraries
 INCLUDE ( EnableCXX11 )
+INCLUDE ( Eigen )
 
 # ----------------------------------------------------------------------------
 # Build options
